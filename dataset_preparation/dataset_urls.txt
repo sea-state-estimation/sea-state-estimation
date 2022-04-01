@@ -1,0 +1,17 @@
+Selected data, label 0 = calm, 1 = moderate, 2 = high
+
+Label 0:
+https://data-dataref.ifremer.fr/stereo/BS_2011/2011-10-01_16-18-00_15Hz/input/
+in total 10828 images, 15 Hz, ca. 15 min
+
+alternativ Label 0:
+https://data-dataref.ifremer.fr/stereo/BS_2011/2011-10-04_11-38-00_12Hz/input/
+in total 14375 images, 12 Hz
+
+Label 1:
+https://data-dataref.ifremer.fr/stereo/YS_2017/2017-05-13_05-00-00_10Hz/input/cam1/
+in total 6000 images, 10 Hz for 5 min
+
+Label 2:
+https://data-dataref.ifremer.fr/stereo/LJ_2018/2018-01-03_09-39-38_10Hz/input/
+in total 1799 images, 10 Hz for 30 min
