@@ -16,3 +16,10 @@ Crops images in given directory and saves it in new directory. Cutting out borde
 
 ### 2. Setting up, training and testing CNN-classifier
 
+Following code is supposed to be executed by an interpreter running on gpu as it requires a lot of resources.
+#### training.py
+Establishing and training an CNN classifier with vgg16-architecture from scratch.
+includes up-to-date prediction code with evaluation metrics overall accuracy, precision, recall and building confusion matrices with diagramms respectively.
+
+#### outdated: prediction.py
+Loading a given model for making predictions on input data. Outdated, as version incompatibilies made loading a previously saved model impossible.
