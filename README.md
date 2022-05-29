@@ -23,3 +23,9 @@ includes up-to-date prediction code with evaluation metrics overall accuracy, pr
 
 #### outdated: prediction.py
 Loading a given model for making predictions on input data. Outdated, as version incompatibilies made loading a previously saved model impossible.
+
+## Automated video capturing on Motion Sensor Box
+### Hardware
+Raspberry Pi Video v2.1, USB-Stick on Hub
+
+### 
