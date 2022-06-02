@@ -1,15 +1,15 @@
 [Unit]
-Description=Motion Sensor Box Global Navigation Satellite System Service
+Description=Motion Sensor Box Raspberry Pi Camera V2.1 Service
 After=network.target
 StartLimitIntervalSec=0
 
 [Service]
-SyslogIdentifier=msb-gps
+SyslogIdentifier=msb-camera
 Type=simple
 Restart=always
 RestartSec=1
 User=pi
-ExecStart=/usr/bin/python3 /home/pi/motion-sensor-box/src/gps/src/msb_gps.py
+ExecStart=/usr/bin/python3 /home/pi/motion-sensor-box/src/camera/src/msb_camera.py
 
 [Install]
 WantedBy=multi-user.target
