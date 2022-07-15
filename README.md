@@ -26,3 +26,6 @@ Loading a given model for making predictions on input data. Outdated, as version
 
 ## Code running on Motion Sensor Box (msb_camera)
 See details in subsequent readme.md
+
+## 3DCNN
+3DCNN for extracting ocean characteristics from video, see subequent readme.md for details.
