@@ -5,4 +5,4 @@ Architecture based on publications
 - H. Wu et al.: ‘‘iOceanSee: A Novel Scheme for Ocean State Estimation‘‘ IEEE Access, VOLUME 8, 2020
 
 
-### Model Summary: see in summary.txt
+### Model Summary: see in model_summary.txt
