@@ -15,13 +15,14 @@ Expects .npy arrays as input being in a directory named input_analysis
 needs filepath to the used trained model
 writes results in a csv file (if not yet existing creating one first)
 
-### Model Summary: see in model_summary.txt
+### Model Summary: 
+summary of used neuronal network (multiple-input-multiple-output), using convolution and subsampling
+see details in model_summary.txt
 
 ### extract-data.py Idea:
 Extract data from downloaded .csv-files into numpy-arrays
 
-
-### Settings for download data from bsh:
+#### Settings for download data from bsh:
 https://seastate.bsh.de/rave/index.jsf?content=seegang
 - Stations and parameters: 
   - Tick only 'DWR'
