@@ -1,9 +1,19 @@
-### 3DCNN.py General Idea:
+### 3DCNN.py:
 Finding ocean characteristics (as regression) from video using a 3DCNN.
 Architecture based on publications 
 - S. Ji, W. Xu, M. Yang, and K. Yu, ‘‘3D convolutional neural networks for human action recognition’’ IEEE Trans. Pattern Anal. Mach. Intell., vol. 35, no. 1, pp. 221–231, Jan. 2010.
 - H. Wu et al.: ‘‘iOceanSee: A Novel Scheme for Ocean State Estimation‘‘ IEEE Access, VOLUME 8, 2020
 
+saves trained model in same directory
+
+### preprocessing.py
+Creates numpy arrays in the required shape for the 3DCNN.
+Depending on input data (.h264 files / single video frames) different functions need to be used / being out commented
+
+### analysis.py
+Expects .npy arrays as input being in a directory named input_analysis
+needs filepath to the used trained model
+writes results in a csv file (if not yet existing creating one first)
 
 ### Model Summary: see in model_summary.txt
 
